@@ -26,4 +26,19 @@ public class ThreadLocalUtil {
     public static void remove(){
         THREAD_LOCAL.remove();
     }
+
+
+    //get id
+    public static Integer getUserId(){
+        //获取用户id
+        Map<String, Object> claims = get();
+        return (Integer) claims.get("id");
+    }
+
+    //get username
+    public static String getUsername(){
+        //获取用户名
+        Map<String, Object> claims = get();
+        return (String) claims.get("username");
+    }
 }
