@@ -1,0 +1,16 @@
+com/shop/pojo/User.class
+com/shop/utils/JwtUtil.class
+com/shop/config/WebConfig.class
+com/shop/interceptors/LoginInterceptor.class
+com/shop/pojo/ProductReview.class
+com/shop/service/UserService.class
+com/shop/shopApplication.class
+com/shop/exception/GlobalExceptionHandler.class
+com/shop/pojo/Result.class
+com/shop/controller/UserController.class
+com/shop/pojo/ShoppingCart.class
+com/shop/pojo/MusicalInstrument.class
+com/shop/utils/Md5Util.class
+com/shop/service/impl/UserServiceImpl.class
+com/shop/mapper/UserMapper.class
+com/shop/pojo/WebOrder.class
