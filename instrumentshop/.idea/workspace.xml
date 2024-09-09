@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3f174cc0-bf50-4ce5-8356-11446748e1d4" name="Changes" comment="rename instrument in pojo">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shop/controller/MusicalInstrumentsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shop/mapper/MusicalInstrumentsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shop/service/MusicalInstrumentsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shop/service/impl/MusicalInstrumentsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/utils/ThreadLocalUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/utils/ThreadLocalUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shop/pojo/MusicalInstrument.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shop/utils/ThreadLocalUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shop/utils/ThreadLocalUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/opt/homebrew/Cellar/maven/3.9.6/libexec" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2lpnptW8bVd9nZJ8LULucnUL9VL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "jbo-part",
+    "last_opened_file_path": "/Users/jiangboou/Desktop/shop/instrumentshop/src/main/java/com/shop/utils",
+    "mysql-explain.agentPath": "/Users/jiangboou/Library/Application Support/JetBrains/IntelliJIdea2023.2/plugins/mysql-explain-intellij-plugin/lib/mysql-explain-agent-1.1.0-jar-with-dependencies.jar",
+    "mysql-explain.existMysqlJar": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/shop/utils" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="shopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="instrumentshop" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shop.shopApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.shopApplication" />
+        <item itemvalue="Spring Boot.shopApplication" />
+        <item itemvalue="Spring Boot.shopApplication" />
+        <item itemvalue="Spring Boot.shopApplication" />
+        <item itemvalue="Spring Boot.shopApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f174cc0-bf50-4ce5-8356-11446748e1d4" name="Changes" comment="" />
+      <created>1725886073639</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725886073639</updated>
+      <workItem from="1725886074983" duration="4834000" />
+    </task>
+    <task id="LOCAL-00001" summary="Threadlocalutil">
+      <option name="closed" value="true" />
+      <created>1725887289408</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725887289408</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add some comments">
+      <option name="closed" value="true" />
+      <created>1725887801200</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725887801200</updated>
+    </task>
+    <task id="LOCAL-00003" summary="jwt is duration">
+      <option name="closed" value="true" />
+      <created>1725893306120</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725893306120</updated>
+    </task>
+    <task id="LOCAL-00004" summary="rename instrument in pojo">
+      <option name="closed" value="true" />
+      <created>1725893493053</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725893493053</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Threadlocalutil" />
+    <MESSAGE value="add some explinations" />
+    <MESSAGE value="add some comments" />
+    <MESSAGE value="jwt is duration" />
+    <MESSAGE value="rename instrument in pojo" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename instrument in pojo" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException" package="com.mysql.jdbc.exceptions.jdbc4" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
