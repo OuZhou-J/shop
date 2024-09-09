@@ -1,5 +1,6 @@
 package com.shop.controller;
 
+import com.shop.utils.ThreadLocalUtil;
 import jakarta.validation.constraints.Pattern;
 import com.shop.pojo.Result;
 import com.shop.pojo.User;
@@ -7,6 +8,7 @@ import com.shop.service.UserService;
 import com.shop.utils.JwtUtil;
 import com.shop.utils.Md5Util;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -65,6 +67,14 @@ public class UserController {
                 return Result.error("密码错误");
             }
         }
+    }
+
+    @GetMapping("/userinfo")
+    public Result<User> userinfo() {
+        Map<String, Object> claims = ThreadLocalUtil.get();
+        String username = (String) claims.get("username");
+        User user = userService.findUserByUsername(username);
+        return Result.success(user);
     }
 
 }

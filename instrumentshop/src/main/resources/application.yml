@@ -6,5 +6,7 @@ spring:
     password: Jbo20030322
 
 
-
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
 
