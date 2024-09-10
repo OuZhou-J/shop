@@ -3,9 +3,13 @@ package com.shop.pojo;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
+import java.sql.ResultSet;
+import java.util.List;
+
 //统一响应结果
-@NoArgsConstructor//无参构造
-@AllArgsConstructor//全参构造
+@NoArgsConstructor
+@AllArgsConstructor
 @Data
 public class Result<T> {
     private Integer code;//业务状态码  0-成功  1-失败
@@ -21,6 +25,8 @@ public class Result<T> {
     public static Result success() {
         return new Result(0, "操作成功", null);
     }
+
+    public static Result success(List<ProductReview> reviews){return new Result<>(0, "操作成功", reviews);}
 
     public static Result error(String message) {
         return new Result(1, message, null);
