@@ -1,24 +1,2 @@
-# shop说明
 
-## 1.成员使用说明
-
-clone项目到本地
-```shell
-git clone git@github.com:OuZhou-J/shop.git
-```
-
-创建新分支
-```shell
-git checkout -b 分支名(eg jbo-part, mfl-part)
-``` 
-
-切换到新分支
-```shell
-git checkout 分支名(eg jbo-part, mfl-part)
-```
-
-提交代码:idea集成git功能了
-
-main中是主分支，不要直接在main中提交代码,这里面的部分当前是登陆部分以及获取用户信息部分
-
-
+修改了result productreview，productreview中修改了变量名字以贴合数据库，本地使用的端口是8013 ，数据库为big_event ，相关内容有需要自行在.yml修改。添加了 mapper等，在控制器里面查看对应接口。
