@@ -44,7 +44,7 @@ public class CommentController {
     public Result readcomments(int instrument_id) {
 
         List<ProductReview> reviews = commentService.findCommentsByInstrument_id(instrument_id);
-        if (reviews == null) {
+        if (reviews.isEmpty()) {
             return Result.error("评论不存在");
         }
         else {
