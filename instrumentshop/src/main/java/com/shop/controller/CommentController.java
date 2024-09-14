@@ -31,7 +31,7 @@ public class CommentController {
     @PostMapping("/postcomment")
     // 注册
     public Result comment(int order_id,int user_id,int instrument_id,String item_name,int rating,String review_text,String image_url) {
-        List<ProductReview> reviews =  commentService.findCommentsByOrder_id(order_id);
+        List<ProductReview> reviews =  commentService.findifcomment(instrument_id,user_id);
         if (reviews.isEmpty()) {
             commentService.addComment(order_id,user_id,instrument_id,item_name,rating,review_text,image_url);
             return Result.success();

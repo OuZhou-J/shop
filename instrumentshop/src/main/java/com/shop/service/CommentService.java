@@ -8,5 +8,5 @@ import java.util.List;
 public interface CommentService {
     public void addComment(int order_id,int user_id,int instrument_id,String item_name,int rating,String review_text,String image_url);
     public List<ProductReview> findCommentsByInstrument_id(int instrument_id);
-    public List<ProductReview> findCommentsByOrder_id(int order_id);
+    public List<ProductReview> findifcomment(int instrument_id,int user_id);
 }

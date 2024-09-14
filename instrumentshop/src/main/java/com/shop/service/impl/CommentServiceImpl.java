@@ -28,9 +28,9 @@ public class CommentServiceImpl implements CommentService {
         return reviews;
     }
 
-    public List<ProductReview> findCommentsByOrder_id(int order_id){
+    public List<ProductReview> findifcomment(int instrument_id,int user_id){
 
-        List<ProductReview> reviews = commentMapper.findCommentsByOrder_id(order_id);
+        List<ProductReview> reviews = commentMapper.findifcomment(instrument_id,user_id);
         return reviews;
     }
 }
