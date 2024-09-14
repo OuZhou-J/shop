@@ -16,7 +16,7 @@ public interface CommentMapper {
     public void addComment(int order_id,int user_id,int instrument_id,String item_name,int rating,String review_text,String image_url);
     @Select("select * from ProductReview where instrument_id = #{instrument_id}")
     public List<ProductReview> findCommentsByInstrument_id(int instrument_id);
-    @Select("select * from ProductReview where order_id = #{instrument_id} and user_id = #{user_id}")
+    @Select("select * from ProductReview where instrument_id = #{instrument_id} and user_id = #{user_id}")
     public List<ProductReview> findifcomment(int instrument_id,int user_id);
 }
 
