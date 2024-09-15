@@ -26,14 +26,11 @@ public class UserController {
 
     @PostMapping("/register")
     // 注册
-    public Result register( String username, String password) {
+    public Result register(String username, String password) {
 
         //用户名校验,只能包含字母、数字、下划线，长度为6-20
-        if (!username.matches("^[a-zA-Z0-9_]{6,20}$")) {
-            return Result.error("用户名只能包含字母、数字、下划线，长度为6-20");
-        }
-        else if (!password.matches("^[a-zA-Z0-9_]{6,20}$")) {
-            return Result.error("密码只能包含字母、数字、下划线，长度为6-20");
+        if (username.length() < 6 || username.length() > 20) {
+            return Result.error("用户名长度应为6-20");
         }
         //查找用户
         User user = userService.findUserByUsername(username);
