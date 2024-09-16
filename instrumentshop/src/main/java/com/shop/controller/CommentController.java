@@ -41,7 +41,7 @@ public class CommentController {
     }
 
     @GetMapping("/readcomments")
-    public Result readcomments(int instrument_id) {
+    public Result<List<ProductReview>> readcomments(int instrument_id) {
 
         List<ProductReview> reviews = commentService.findCommentsByInstrument_id(instrument_id);
         if (reviews.isEmpty()) {
