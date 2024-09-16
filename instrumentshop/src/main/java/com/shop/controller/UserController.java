@@ -65,13 +65,12 @@ public class UserController {
             }
         }
     }
-
     @GetMapping("/userinfo")
     public Result<User> userinfo() {
+        System.out.println("userinfo");
         Map<String, Object> claims = ThreadLocalUtil.get();
         String username = (String) claims.get("username");
         User user = userService.findUserByUsername(username);
         return Result.success(user);
     }
-
 }
