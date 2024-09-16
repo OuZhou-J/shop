@@ -26,4 +26,15 @@ public class MusicalInstrumentsController {
        }
        return Result.success(musicalInstruments);
     }
+
+    // 通过id查询乐器
+    @GetMapping("/search")
+    public Result<MusicalInstruments> search(int id) {
+        System.out.println("查询乐器");
+        MusicalInstruments musicalInstruments =  musicalInstrumentsService.getMusicalInstrumentsById(id);
+        if (musicalInstruments == null) {
+            return Result.error("查询失败,请重试");
+        }
+        return Result.success(musicalInstruments);
+    }
 }
