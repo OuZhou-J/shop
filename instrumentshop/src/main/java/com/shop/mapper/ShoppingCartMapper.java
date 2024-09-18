@@ -23,8 +23,8 @@ public interface ShoppingCartMapper {
     @Select("SELECT * FROM ShoppingCart WHERE id = #{id}")
     public  ShoppingCart findShoppingCartById(int id);
 
-    @Select("SELECT * FROM ShoppingCart WHERE instrument_id = #{instrument_id}")
-    public ShoppingCart findShoppingCartByInstrument_id(int instrument_id);
+    @Select("SELECT * FROM ShoppingCart WHERE instrument_id = #{instrument_id} and username = #{username}")
+    public ShoppingCart findShoppingCartByInstrument_idAndUsername(int instrument_id,String username);
 
     @Delete("DELETE FROM ShoppingCart WHERE username = #{username}")
     public void logoutShoppingCart(String username);
